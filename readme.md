@@ -33,7 +33,7 @@ What are some data structures we might use when building a Memory game?
 <br>
 <br>
 
-#### Independent Practice: Data Structures for "Memory"
+#### Data Structures for "Memory" (Independent Practice)
 Let's consider object types Card, Game, and Pair.
 
 Work with a partner to list some properties and methods of cards, the game itself, and a particular pair.
@@ -68,9 +68,12 @@ Work with a partner to list some properties and methods of cards, the game itsel
   - `randomize()` (Function - creates randomized game)
   - `Game(numCards)` (Function - constructor)
   - `removeCard(card)` (Function - remove this card from the game)
+  - `hasWon()` (Function - check if the game has been won!)
+  - `celebrate()` (Function - display a win message)
 </details>
 
 #### Development Stories
+
 1. A user can see a set of face-down cards.
   * Create HTML structure to display cards on screen (Handlebars?).
   * Ensure that cards start out displayed face-down (in `Card` constructor?).
@@ -95,12 +98,27 @@ Work with a partner to list some properties and methods of cards, the game itsel
     - flip each card in the pair back over so they're face-down
 
 5. The user wins when they've matched all the cards!
-  * Every time there is a match, the Game should also check if its cards array is now empty. If so, show a win screen.
+  * Every time there is a match, the Game should also check if its cards array is now empty. (`hasWon`)
+  * If so, show a win screen (`celebrate`)
 
 
+####Potential Challenges / Development Questions
+
+1. How to randomize or shuffle card locations at the beginning of the game?
+2. How to ensure that all the cards have matches?
+3. How to change the image for a card that's face-down, face-up, or matched and removed from game?
+4. Is there a way to hide the identity of a card even from users who know how to use the Chrome dev tools?
+5. Cool card flip animation?!
 
 ### Deliverable
 
 Design user stories, data structures, development stories, and potential challenges for a **racing game** in which two players use the keyboard to control "cars" that race across the screen.
+
+Here are some popular bonus features that would affect your data structure plan:
+
+1. How would you make your player's "cars" use custom images?
+2. Can a player type in their name to see custom win messages?
+3. Can you enable a reset button to restart the race?
+4. How about a win counter that spans across multiple races?
 
 As you work, you can edit this README to add a section at the top with your name, a link to the original repository, and a 3-5 sentence reflection on completing this assignment. Push your updates to GitHub and add a link to the repo to the "My Work" section of your website!
