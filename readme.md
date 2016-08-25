@@ -7,7 +7,7 @@ Location: SF
 
 #Training: Model a Game with OOP
 
-Here's an example of how we might approach making a card-matching memory game.
+You've learned about OOP, but let's look at how to **incorporate ojbect oriented programming patterns into a web site**.  This document has an example of how we might approach making a card-matching memory game.
 
 ### User Stories & Game Mechanics
 1. A user can see a set of face-down cards.
