@@ -7,16 +7,16 @@ Location: SF
 
 #Training: Model a Game with OOP
 
-### Example: Memory
+Here's an example of how we might approach making a card-matching memory game.
 
-#### User Stories & Game Mechanics
+### User Stories & Game Mechanics
 1. A user can see a set of face-down cards.
 2. A user can select a card to "flip it over" and see its other side.
 3. If the user flips two matching cards face-up at the same time, the cards will be removed from the game.
 4. If the user flips two non-matching cards face-up at the same time, both cards will turn back face down.
 5. The user wins when they've matched all the cards!
 
-#### Check for Understanding
+### Check for Understanding
 
 What are some data structures we might use when building a Memory game?
 
@@ -33,7 +33,7 @@ What are some data structures we might use when building a Memory game?
 <br>
 <br>
 
-#### Data Structures for "Memory" (Independent Practice)
+### Data Structures for "Memory" (Independent Practice)
 Let's consider object types Card, Game, and Pair.
 
 Work with a partner to list some properties and methods of cards, the game itself, and a particular pair.
@@ -72,7 +72,7 @@ Work with a partner to list some properties and methods of cards, the game itsel
   - `celebrate()` (Function - display a win message)
 </details>
 
-#### Development Stories
+### Development Stories
 
 1. A user can see a set of face-down cards.
   * Create HTML structure to display cards on screen (Handlebars?).
@@ -102,7 +102,7 @@ Work with a partner to list some properties and methods of cards, the game itsel
   * If so, show a win screen (`celebrate`)
 
 
-####Potential Challenges / Development Questions
+###Potential Challenges / Development Questions
 
 1. How to randomize or shuffle card locations at the beginning of the game?
 2. How to ensure that all the cards have matches?
